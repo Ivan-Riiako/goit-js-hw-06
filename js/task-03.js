@@ -13,6 +13,9 @@ const images = [
   },
 ];
 
+// const makeList = images.map( image => {
+//   return `<li><img style='width:300px' src= ${image.url} alt=${image.alt} ></li>`;
+// }).join("");
 
 const makeLi = ({ url, alt }=image) => {
   return `<li><img style='width:300px' src= ${url} alt=${alt} ></li>`;
@@ -26,6 +29,3 @@ list.style.display ='flex'
 
 
 
-// const makeList = images.map( image => {
-//   return `<li><img style='width:300px' src= ${image.url} alt=${image.alt} ></li>`;
-// }).join("");
