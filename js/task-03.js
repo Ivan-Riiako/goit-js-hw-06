@@ -25,3 +25,7 @@ list.insertAdjacentHTML("beforeend", makeList);
 list.style.display ='flex'
 
 
+
+// const makeList = images.map( image => {
+//   return `<li><img style='width:300px' src= ${image.url} alt=${image.alt} ></li>`;
+// }).join("");
