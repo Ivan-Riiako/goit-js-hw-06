@@ -10,9 +10,9 @@ function onImputblur(event) {
     // console.log(refs.input.dataset.length);
     // console.log(event.currentTarget.value.length);
 
-  const inputLenght = Number(refs.input.dataset.length);
-  
-    if (event.currentTarget.value.length === inputLenght) {
+  const checkInputLenght = Number(refs.input.dataset.length);
+  const inputLength = event.currentTarget.value.length;
+    if (inputLength === checkInputLenght) {
       refs.input.className = "valid";
     } else {
       refs.input.className = "invalid";
