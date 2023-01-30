@@ -7,7 +7,7 @@ const refs = {
 };
 refs.btn.addEventListener("click", onBtnClick);
 function onBtnClick(event) {
-  // const color = getRandomHexColor();
+  const color = getRandomHexColor();
   // console.log(color);
   
 refs.output.textContent = `${color}`;
