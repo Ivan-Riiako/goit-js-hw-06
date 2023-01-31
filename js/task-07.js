@@ -8,8 +8,6 @@ refs.spanText.style.fontSize='16px';
 
   
 let spanTextFontSize = Number(refs.spanText.style.fontSize.replace("px", ""));
-// console.log(spanTextFontSize);
-
 
 function onImputChange(event) {
   const changeValue = event.currentTarget.value;
@@ -22,5 +20,4 @@ function onImputChange(event) {
     refs.spanText.style.fontSize = `${spanTextFontSize}px`;
   }
     inputCurrentValue = changeValue;
-    // console.log(spanTextFontSize);
 }
