@@ -4,7 +4,7 @@ const refs = {
 };
 refs.input.addEventListener("input", onImputChange);
 // Var 1
-refs.input.value = 16;
+refs.input.value = Number(refs.spanText.style.fontSize.replace("px", ""));
 function onImputChange(event) {
   let changeValue = event.currentTarget.value;
   refs.spanText.style.fontSize = `${changeValue}px`;
