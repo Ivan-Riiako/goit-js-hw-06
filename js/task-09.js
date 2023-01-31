@@ -5,12 +5,16 @@ const refs = {
   btn: document.querySelector("button.change-color"),
   output: document.querySelector("span.color"),
 };
-refs.btn.addEventListener("click", onBtnClick);
-function onBtnClick(event) {
+refs.btn.addEventListener("click", () => {
   const color = getRandomHexColor();
-  // console.log(color);
-  
-refs.output.textContent = `${color}`;
-document.body.style.backgroundColor = `${color}`;
+  refs.output.textContent = `${color}`;
+  document.body.style.backgroundColor = `${color}`;
+});
 
-}
+// refs.btn.addEventListener("click", onBtnClick);
+
+// function onBtnClick() {
+//   const color = getRandomHexColor();
+// refs.output.textContent = `${color}`;
+// document.body.style.backgroundColor = `${color}`;
+// }
