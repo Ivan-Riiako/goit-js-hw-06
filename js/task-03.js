@@ -18,7 +18,7 @@ const images = [
 // }).join("");
 
 const makeLi = ({ url, alt }=image) => {
-  return `<li><img style='width:300px' src= ${url} alt=${alt} ></li>`;
+  return `<li><img style='width:300px' src= ${url} alt="${alt}" ></li>`;
 };
 
 const makeList = images.map(makeLi).join("");
