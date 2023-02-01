@@ -17,5 +17,7 @@ arrLi.push(ingridientLi);
   
 })
 
+
+
 console.log(arrLi);
 document.querySelector("ul").append(...arrLi);
