@@ -13,7 +13,6 @@ ingredients.forEach(ingredient => {
   const ingridientLi = document.createElement("li");
   ingridientLi.textContent = ingredient;
   ingridientLi.className = "item";
-  ingridientLi.classList.add('diablo');
 arrLi.push(ingridientLi);
   
 })
